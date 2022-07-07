@@ -1,0 +1,75 @@
+img{
+  width: 150px;
+}
+
+ h1{
+  /*font-family: "Arial", sans-serif;*/
+  text-align: center;
+  background-color: yellow;
+ }
+
+ h2{
+ 	background-color: yellow;
+ 	padding-left: 20px;
+ 	font-size: 30px;
+
+}
+
+body{
+/*background-color: orange*/
+/*font-family: "poppins", sans-serif;*/
+font-family: 'Prompt', sans-serif;
+background: linear-gradient(orange, yellow);
+}
+
+#hola{
+	text-align: center;
+  background-color: yellow;
+  padding: 30px;
+
+}
+
+h3{
+  text-align: center;
+}
+
+#imagenHomemarket{
+   width: 100%;
+
+}
+
+.item{
+  font-size: 17px;
+  padding: 23px;
+}
+
+.item::before{
+  content: "📦";
+}
+
+ul{
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+
+a{
+ text-decoration: none;
+ color:black;
+}
+
+.segundaFoto{
+	width: 50%;
+  box-shadow: 10px 10px 30px 10px black;
+}
+
+.mapa{
+text-align: center;
+}
+
+.video{
+  text-align: center;
+  padding: 9em 0;
+  margin: 0 0 2em;
+}

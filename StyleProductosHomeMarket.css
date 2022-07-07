@@ -1,0 +1,82 @@
+main{
+	font-family: "poppins", sans-serif;
+	
+}
+body{
+	background-color: yellow;
+	font-family: 'Prompt', sans-serif;
+}
+header{
+	background-color: orange; /*color de fondo naranja*/ 
+	padding: 20px 0; /*espaciamiento 20px para arriba/abajo. y 0 en los laterales*/
+	/*font-family: "poppins", sans-serif;*/
+}
+img{
+	width: 140px
+}
+.cajaUno{ 	
+ width: 940px; /*ancho*/
+ margin: 0 auto; /*margen automatico para los bordes*/
+ padding: 50px;
+}
+nav {
+	position: absolute;/*permite posicionar mi elemento en cualquier lugar de la pagina*/
+	top:110px;/*un poquito por debajo del total de la altura de la pagina*/
+	right: 0; /*bien pegado a la derecha*/
+
+}
+nav li{
+	display: inline; /*lista en linea*/
+	margin: 0 0 0 15px;
+	
+}
+nav a{
+	text-transform: uppercase; /*texto de la lista en mayuscula */
+    color: black; /*color de la letra*/
+    font-weight: bold; /*remarca en negrita como el strong*/
+    font-size: 22px; /*cambia tamaño de la letra*/
+    text-decoration: none; /*que no tenga decoracion el texto*/
+}
+nav a:hover{
+ text-decoration: none;
+}
+h2{
+    text-transform: uppercase;
+	font-size: 25px;
+}
+.Productos li{
+	background-color: white;
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 1.5% 1.5%; /*margen 0 en vertical y 1.5 en laterales */
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px;	
+	border-radius: 20px; 
+}
+/*.Productos li:hover{
+	
+	remarca cuadro de los productos
+}*/
+.Productos li h2:hover{
+	font-size: 30px;
+	/*remarca tamaño de la letra*/
+}
+/*.Productos li:active{
+	/*todo lo que hago cuando aprieto en algun .Productos li
+}*/
+.Productos-Descripcion{
+ /*font-family: "poppins", sans-serif;*/
+ font-size: 15px;
+}
+.Productos-Precio{
+font-size: 18px;
+font-weight: bold;
+margin-top: 15px;
+}
+footer{
+	background-color: orange;
+	/*font-family: "poppins", sans-serif;*/
+}
