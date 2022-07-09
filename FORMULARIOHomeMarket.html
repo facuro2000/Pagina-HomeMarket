@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Trabaja con Nosotros | HomeMarket</title>
+        <link rel="icon" href="imagenes Homemarket/logoHomeMarket.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="StyleFormulario.css">
+    </head>
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img src="imagenes Homemarket/logoHomeMarket.jpg" alt="Logo de la Barbería Alura"></h1>
+              <nav>      
+                <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="PRODUCTOSHomeMarket.html">Productos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+                </div>
+        </header>
+        <main>
+            <form>
+                <label for="nombreapellido">Nombre y Apellido</label>
+                <input type="text" id="nombreapellido" class="input-padron" placeholder="Julio rojas" required>
+
+                <label for="correoelectronico">Correo Electrónico</label>
+                <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+                
+                <label for="resumecv">Resume/CV</label>
+                <input type="file" id="cv" class="input-padron" required>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+                
+                <fieldset>
+                    <legend>¿Cómo le gustaría que lo contactemos?</legend>
+
+                    <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                    
+                    <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
+                    
+                    <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+                   
+                </fieldset>
+               
+                <fieldset>
+                    <legend>¿cual es su disponibilidad horaria para trabajar?</legend>
+                    <select>
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+                </fieldset>
+                
+                <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de futuros trabajos?</label>                
+                
+                <input type="submit" value="Enviar formulario" class="enviar">
+
+            </form>
+        </main>
+        <footer>
+            <img src="imagenes Homemarket/logoHomeMarket.jpg"  alt="Logo HomeMarket">
+            <p class="copyright">&copy Copyright HomeMarket - 2020</p>
+        </footer>
+    </body>
+</html>
